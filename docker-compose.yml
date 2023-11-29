@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  mautic-with-node:
+    build: .
+    ports:
+      - "30008:80"  # Adjust this port if needed
+    environment:
+      # Add Mautic environment variables as needed
